@@ -1,4 +1,7 @@
-  .navbar-brand {
+ 
+/*        NAVIGATION BAR CSS          */
+ 
+ .navbar-brand {
     font-weight: bold;
     color: #c94242 !important; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -47,17 +50,18 @@
 
 body {
     background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
 
   }
 
+/*        FIRST HOME PAGE PHOTO GALLERY CSS          */
   .card {
     width: 1900px;
     height: 500px;
     background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
     color: white;
     overflow: hidden;
     position: relative;
@@ -130,7 +134,8 @@ body {
   .card:hover:after {
     transform: translateX(100%);
   }
-  
+
+/*        ABOUT US CARD CSS          */
   .about-card {
     width: 1000px;
     height: 380px;
@@ -167,12 +172,14 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+/*        SECOND HOME PAGE PHOTO GALLARY CSS          */  
+
   .card2 {
     width: 1900px;
     height: 500px;
     background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #190A05, #870000); 
+    background: linear-gradient(to right, #190A05, #870000); 
     color: white;
     overflow: hidden;
     position: relative;
@@ -246,9 +253,10 @@ body {
     transform: translateX(100%);
   }
 
+/*        HOME PAGE BUTTONS CSS          */
+
   button {
     font-size: 1rem;
-    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
     padding: 0.9em 2em;
     margin: 60px;
     width: 500px;
@@ -264,6 +272,8 @@ body {
   button:hover {
     transform: translate(5px, -5px);
   }
+
+/*        TOKYO BITES EXPERIENCE CSS          */
 
   .experience-container {
     width: 100%;
@@ -352,10 +362,13 @@ body {
     color: #fff;
    }
 
+
+/*        FOOTER CSS          */
+
    footer {
     background: #870000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  
+    background: linear-gradient(to right, #190A05, #870000); 
   }
 
   .footer-container {
@@ -373,37 +386,7 @@ body {
     background-color: #530404;
   }
 
-  .footer-button1 {
-    font-size: 1rem;
-    padding: 0.9em 2em;
-    margin: 60px;
-    margin-left: 120px;
-    margin-right: 670px;
-    width: 200px;
-    background-color: #8b1010;
-    border: 3px solid #4b0404;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px #190A05;
-  }
-
-  .footer-button2 {
-    font-size: 1rem;
-    padding: 0.9em 2em;
-    margin: 60px;
-    margin-left: 590px;
-    margin-right: 120px;
-    width: 200px;
-    background-color: #8b1010;
-    border: 3px solid #4b0404;
-    border-radius: 1em;
-    color: #fff;
-    font-weight: bolder;
-    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-    box-shadow: -5px 5px 0px 0px #190A05;
-  }
+/*        FOOTER INSTAGRAM CSS          */
 
   .tooltip-container {
     position: relative;
@@ -564,4 +547,3 @@ body {
     color: #ccc;
     padding-top: 5px;
   }
-  
