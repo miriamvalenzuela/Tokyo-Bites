@@ -255,7 +255,7 @@ body {
 
 /*        HOME PAGE BUTTONS CSS          */
 
-  button {
+  .homebutton {
     font-size: 1rem;
     padding: 0.9em 2em;
     margin: 60px;
@@ -269,7 +269,7 @@ body {
     box-shadow: -5px 5px 0px 0px #190A05;
   }
   
-  button:hover {
+  .homebutton:hover {
     transform: translate(5px, -5px);
   }
 
@@ -547,3 +547,95 @@ body {
     color: #ccc;
     padding-top: 5px;
   }
+
+
+/*   FOOTER BUTTONS CSS  */
+
+.footerbutton {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #3b0b0b;
+  --button_outline_color: #290202;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  margin-left: 559px;
+}
+
+.footerbutton2 {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #3b0b0b;
+  --button_outline_color: #290202;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  margin-left: 60px;
+  margin-bottom: 45px;
+  margin-top: 20px;
+}
+
+.footerbutton3 {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #3b0b0b;
+  --button_outline_color: #290202;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  margin-left: 60px;
+}
+
+.footerbutton4 {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #3b0b0b;
+  --button_outline_color: #290202;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  margin-left: 60px;
+}
+
+.footerbutton_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+  
+}
+
+.footerbutton:hover .button_top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+}
+
+.footerbutton:active .button_top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}
+
+.footerbutton_textmenu {
+  margin:20px;
+}
+
+.footerbutton_textcontact {
+  margin:15px;
+}
+
+.footerbutton_textlocations {
+  margin:5px;
+}
